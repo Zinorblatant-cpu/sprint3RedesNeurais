@@ -1,0 +1,43 @@
+# deps / envs
+node_modules/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# build
+dist/
+build/
+target/
+bin/
+obj/
+.next/
+coverage/
+test-results/
+playwright-report/
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+clientkey*.txt
+# IDE / OS
+.idea/
+.vscode/
+.vs/
+*.user
+.DS_Store
+Thumbs.db
+# archives
+*.rar
+*.7z
+*.zip
+
+# datasets (baixar à parte)
+dataset/
+arquivo_gatos_caes/dataset/
+data/images/
+*.npz
+*.npy

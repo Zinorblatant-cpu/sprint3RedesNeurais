@@ -1,0 +1,560 @@
+{
+  "seed": 42,
+  "ratios": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "size": {
+    "n_unique_resolutions": 1022,
+    "width": {
+      "min": 114,
+      "median": 500.0,
+      "max": 3264,
+      "p5_p50_p95": [
+        281.0,
+        500.0,
+        500.0
+      ]
+    },
+    "height": {
+      "min": 103,
+      "median": 375.0,
+      "max": 2606,
+      "p5_p50_p95": [
+        225.0,
+        375.0,
+        500.0
+      ]
+    },
+    "min_side": {
+      "min": 103,
+      "median": 335.0,
+      "max": 2448
+    },
+    "aspect": {
+      "median": 1.3333333333333333,
+      "p5_p50_p95": [
+        0.7,
+        1.3,
+        1.5
+      ]
+    },
+    "top_resolutions": [
+      "500x375",
+      "500x333",
+      "375x500",
+      "333x500",
+      "300x225"
+    ],
+    "top_resolutions_n": [
+      1424,
+      1069,
+      511,
+      509,
+      261
+    ],
+    "pct_smaller_than_target": 0.03885869565217391,
+    "n_smaller_than_target": 286,
+    "aspect_loss": {
+      "mean": 0.2674811606503293,
+      "median": 0.25,
+      "p90": 0.33399999999999996,
+      "max": 0.61
+    },
+    "pct_near_square": 0.042527173913043476,
+    "stretch_ratio_median": 1.3333333333333333,
+    "channels": {
+      "3": 7360
+    },
+    "per_split": {
+      "train": {
+        "width_mean": 434.97457298136646,
+        "height_mean": 392.29561335403724,
+        "aspect_mean": 1.1643255264191243,
+        "min_side_median": 335.0
+      },
+      "val": {
+        "width_mean": 445.2210144927536,
+        "height_mean": 390.6195652173913,
+        "aspect_mean": 1.1910441320962404,
+        "min_side_median": 340.5
+      },
+      "test": {
+        "width_mean": 438.6630434782609,
+        "height_mean": 386.90942028985506,
+        "aspect_mean": 1.1899404430982639,
+        "min_side_median": 334.0
+      }
+    }
+  },
+  "raw": {
+    "n_files": 7390,
+    "dup_groups": 29,
+    "dup_removed": 30,
+    "dup_label_conflicts": 0,
+    "n_unique": 7360,
+    "modes": {
+      "RGB": 7348,
+      "P": 6,
+      "RGBA": 3,
+      "L": 3
+    },
+    "formats": {
+      "JPEG": 7350,
+      "GIF": 6,
+      "PNG": 4
+    }
+  },
+  "counts": {
+    "total": 7360,
+    "species": {
+      "cao": 4980,
+      "gato": 2380
+    },
+    "imbalance_ratio": 2.092436974789916,
+    "n_breeds": 37,
+    "breed_min": [
+      "Bombay",
+      184
+    ],
+    "breed_max": [
+      "Abyssinian",
+      200
+    ],
+    "breeds": {
+      "Abyssinian": 200,
+      "american_bulldog": 200,
+      "american_pit_bull_terrier": 200,
+      "basset_hound": 200,
+      "beagle": 200,
+      "Bengal": 200,
+      "Birman": 200,
+      "British_Shorthair": 200,
+      "chihuahua": 200,
+      "english_setter": 200,
+      "german_shorthaired": 200,
+      "great_pyrenees": 200,
+      "havanese": 200,
+      "japanese_chin": 200,
+      "leonberger": 200,
+      "Maine_Coon": 200,
+      "miniature_pinscher": 200,
+      "Persian": 200,
+      "pomeranian": 200,
+      "pug": 200,
+      "Ragdoll": 200,
+      "Russian_Blue": 200,
+      "saint_bernard": 200,
+      "samoyed": 200,
+      "shiba_inu": 200,
+      "Siamese": 200,
+      "Sphynx": 200,
+      "wheaten_terrier": 200,
+      "yorkshire_terrier": 200,
+      "boxer": 199,
+      "keeshond": 199,
+      "scottish_terrier": 199,
+      "Egyptian_Mau": 196,
+      "english_cocker_spaniel": 196,
+      "newfoundland": 196,
+      "staffordshire_bull_terrier": 191,
+      "Bombay": 184
+    },
+    "breed_species": {
+      "Abyssinian": "gato",
+      "american_bulldog": "cao",
+      "american_pit_bull_terrier": "cao",
+      "basset_hound": "cao",
+      "beagle": "cao",
+      "Bengal": "gato",
+      "Birman": "gato",
+      "British_Shorthair": "gato",
+      "chihuahua": "cao",
+      "english_setter": "cao",
+      "german_shorthaired": "cao",
+      "great_pyrenees": "cao",
+      "havanese": "cao",
+      "japanese_chin": "cao",
+      "leonberger": "cao",
+      "Maine_Coon": "gato",
+      "miniature_pinscher": "cao",
+      "Persian": "gato",
+      "pomeranian": "cao",
+      "pug": "cao",
+      "Ragdoll": "gato",
+      "Russian_Blue": "gato",
+      "saint_bernard": "cao",
+      "samoyed": "cao",
+      "shiba_inu": "cao",
+      "Siamese": "gato",
+      "Sphynx": "gato",
+      "wheaten_terrier": "cao",
+      "yorkshire_terrier": "cao",
+      "boxer": "cao",
+      "keeshond": "cao",
+      "scottish_terrier": "cao",
+      "Egyptian_Mau": "gato",
+      "english_cocker_spaniel": "cao",
+      "newfoundland": "cao",
+      "staffordshire_bull_terrier": "cao",
+      "Bombay": "gato"
+    }
+  },
+  "split": {
+    "train": {
+      "n": 5152,
+      "pct": 0.7,
+      "species": {
+        "cao": 3486,
+        "gato": 1666
+      },
+      "species_pct": {
+        "cao": 0.6766304347826086,
+        "gato": 0.3233695652173913
+      },
+      "breeds": {
+        "Abyssinian": 140,
+        "american_bulldog": 140,
+        "american_pit_bull_terrier": 140,
+        "basset_hound": 140,
+        "beagle": 140,
+        "Bengal": 140,
+        "Birman": 140,
+        "boxer": 140,
+        "British_Shorthair": 140,
+        "chihuahua": 140,
+        "english_setter": 140,
+        "german_shorthaired": 140,
+        "great_pyrenees": 140,
+        "havanese": 140,
+        "japanese_chin": 140,
+        "leonberger": 140,
+        "Maine_Coon": 140,
+        "miniature_pinscher": 140,
+        "Persian": 140,
+        "pomeranian": 140,
+        "pug": 140,
+        "Ragdoll": 140,
+        "Russian_Blue": 140,
+        "saint_bernard": 140,
+        "samoyed": 140,
+        "shiba_inu": 140,
+        "Siamese": 140,
+        "Sphynx": 140,
+        "wheaten_terrier": 140,
+        "yorkshire_terrier": 140,
+        "keeshond": 139,
+        "scottish_terrier": 139,
+        "Egyptian_Mau": 137,
+        "english_cocker_spaniel": 137,
+        "newfoundland": 137,
+        "staffordshire_bull_terrier": 134,
+        "Bombay": 129
+      }
+    },
+    "val": {
+      "n": 1104,
+      "pct": 0.15,
+      "species": {
+        "cao": 746,
+        "gato": 358
+      },
+      "species_pct": {
+        "cao": 0.6757246376811594,
+        "gato": 0.3242753623188406
+      },
+      "breeds": {
+        "Abyssinian": 30,
+        "american_bulldog": 30,
+        "american_pit_bull_terrier": 30,
+        "basset_hound": 30,
+        "beagle": 30,
+        "Bengal": 30,
+        "Birman": 30,
+        "British_Shorthair": 30,
+        "chihuahua": 30,
+        "Egyptian_Mau": 30,
+        "english_setter": 30,
+        "german_shorthaired": 30,
+        "great_pyrenees": 30,
+        "havanese": 30,
+        "japanese_chin": 30,
+        "keeshond": 30,
+        "leonberger": 30,
+        "Maine_Coon": 30,
+        "miniature_pinscher": 30,
+        "Persian": 30,
+        "pomeranian": 30,
+        "pug": 30,
+        "Ragdoll": 30,
+        "Russian_Blue": 30,
+        "saint_bernard": 30,
+        "samoyed": 30,
+        "scottish_terrier": 30,
+        "shiba_inu": 30,
+        "Siamese": 30,
+        "Sphynx": 30,
+        "wheaten_terrier": 30,
+        "yorkshire_terrier": 30,
+        "boxer": 29,
+        "english_cocker_spaniel": 29,
+        "newfoundland": 29,
+        "staffordshire_bull_terrier": 29,
+        "Bombay": 28
+      }
+    },
+    "test": {
+      "n": 1104,
+      "pct": 0.15,
+      "species": {
+        "cao": 748,
+        "gato": 356
+      },
+      "species_pct": {
+        "cao": 0.677536231884058,
+        "gato": 0.322463768115942
+      },
+      "breeds": {
+        "Abyssinian": 30,
+        "american_bulldog": 30,
+        "american_pit_bull_terrier": 30,
+        "basset_hound": 30,
+        "beagle": 30,
+        "Bengal": 30,
+        "Birman": 30,
+        "boxer": 30,
+        "British_Shorthair": 30,
+        "chihuahua": 30,
+        "english_cocker_spaniel": 30,
+        "english_setter": 30,
+        "german_shorthaired": 30,
+        "great_pyrenees": 30,
+        "havanese": 30,
+        "japanese_chin": 30,
+        "keeshond": 30,
+        "leonberger": 30,
+        "Maine_Coon": 30,
+        "miniature_pinscher": 30,
+        "newfoundland": 30,
+        "Persian": 30,
+        "pomeranian": 30,
+        "pug": 30,
+        "Ragdoll": 30,
+        "Russian_Blue": 30,
+        "saint_bernard": 30,
+        "samoyed": 30,
+        "scottish_terrier": 30,
+        "shiba_inu": 30,
+        "Siamese": 30,
+        "Sphynx": 30,
+        "wheaten_terrier": 30,
+        "yorkshire_terrier": 30,
+        "Egyptian_Mau": 29,
+        "staffordshire_bull_terrier": 28,
+        "Bombay": 27
+      }
+    }
+  },
+  "chi2": {
+    "species": {
+      "stat": 0.008279617067710618,
+      "p": 0.9958687486610378
+    },
+    "breed": {
+      "stat": 0.1255657976556319,
+      "p": 1.0
+    }
+  },
+  "pixels": {
+    "train": {
+      "mean_255": [
+        122.94269346642412,
+        114.75415411422073,
+        101.00643738967862
+      ],
+      "std_255": [
+        68.90136796198372,
+        67.71934599263312,
+        69.65508021379641
+      ],
+      "mean_01": [
+        0.48212820967225145,
+        0.45001629064400284,
+        0.3961036760379554
+      ],
+      "std_01": [
+        0.27020144298817145,
+        0.2655660627162083,
+        0.2731571773090055
+      ],
+      "min": 0,
+      "max": 255,
+      "brightness_mean": 115.74293595648456,
+      "brightness_std": 30.17337059778731,
+      "contrast_mean": 60.90549526119003
+    },
+    "val": {
+      "mean_255": [
+        122.95795685048571,
+        113.33373913257785,
+        100.76789435050034
+      ],
+      "std_255": [
+        67.31893798807216,
+        66.29770123107055,
+        68.89898065060851
+      ],
+      "mean_01": [
+        0.48218806608033615,
+        0.44444603581403075,
+        0.395168213139217
+      ],
+      "std_01": [
+        0.2639958352473418,
+        0.2599909852198845,
+        0.27019208098277847
+      ],
+      "min": 0,
+      "max": 255,
+      "brightness_mean": 115.1927176910582,
+      "brightness_std": 29.883485792882713,
+      "contrast_mean": 61.14213570576312
+    },
+    "test": {
+      "mean_255": [
+        122.03587217189398,
+        113.76718392010721,
+        99.35339323628055
+      ],
+      "std_255": [
+        68.948252032716,
+        67.84852703337751,
+        69.9059344011768
+      ],
+      "mean_01": [
+        0.47857204773291756,
+        0.4461458192945381,
+        0.38962114994619823
+      ],
+      "std_01": [
+        0.27038530208908235,
+        0.266072655032853,
+        0.27414091922030115
+      ],
+      "min": 0,
+      "max": 255,
+      "brightness_mean": 114.46314012906723,
+      "brightness_std": 30.229952852868802,
+      "contrast_mean": 60.939931657993945
+    }
+  },
+  "compare": {
+    "ks_brightness": {
+      "train_vs_val": {
+        "D": 0.017727743271221532,
+        "p": 0.9326510639811415
+      },
+      "train_vs_test": {
+        "D": 0.027885610766045548,
+        "p": 0.4711368600198484
+      },
+      "val_vs_test": {
+        "D": 0.029891304347826088,
+        "p": 0.7076685730663234
+      }
+    },
+    "ks_contrast": {
+      "train_vs_val": {
+        "D": 0.025750517598343684,
+        "p": 0.5740286412162177
+      },
+      "train_vs_test": {
+        "D": 0.028015010351966872,
+        "p": 0.46519007216350017
+      },
+      "val_vs_test": {
+        "D": 0.02717391304347826,
+        "p": 0.8099155978430743
+      }
+    },
+    "wasserstein_rgb": {
+      "train_vs_val": [
+        1.8958167510021626,
+        1.8644950165060448,
+        0.7970564006803487
+      ],
+      "train_vs_test": [
+        0.9072929539792642,
+        0.9869701941135134,
+        1.655961461212181
+      ],
+      "val_vs_test": [
+        1.9244915909482336,
+        1.9369108171285294,
+        1.5669636077820328
+      ]
+    },
+    "max_mean_diff_255": 1.6530441533980706
+  },
+  "norm": {
+    "train_mean": [
+      0.48651687401231847,
+      0.4518974897406313,
+      0.3992688653216285
+    ],
+    "train_std": [
+      0.26479391638265565,
+      0.259614321519088,
+      0.2670051518306769
+    ],
+    "imagenet_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "imagenet_std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "post_norm": {
+      "train": {
+        "mean": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "std": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "val": {
+        "mean": [
+          -0.00018466305876875446,
+          -0.013291015340854835,
+          -0.008760915333204477
+        ],
+        "std": [
+          0.9941434397585523,
+          0.9961011607812958,
+          1.005930031363113
+        ]
+      },
+      "test": {
+        "mean": [
+          -0.003383254114783537,
+          -0.008012602281359704,
+          -0.019081396384463736
+        ],
+        "std": [
+          0.9988820005929576,
+          0.9995775379317293,
+          0.9986807400173708
+        ]
+      }
+    }
+  }
+}
